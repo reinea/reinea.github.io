@@ -52,7 +52,11 @@ ul.posts li {
     list-style: none;
 }
 
+center{
+    text-align: center;
+}
+
 #container {
     margin: 0 auto;
-    width: 800px;
+    width: 100%;
 }
