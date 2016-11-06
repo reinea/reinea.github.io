@@ -46,5 +46,7 @@ ul.posts li {
 
 #maintitle {
      margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
      text-align: left;
 }
