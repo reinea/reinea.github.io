@@ -43,3 +43,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+#blurb {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #66ffff;
+}
