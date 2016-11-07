@@ -75,6 +75,7 @@ ul.posts li {
 }
 #paint {
   position: absolute;
+  z-index: -1;
 }
 #name {
   z-index: 100;
