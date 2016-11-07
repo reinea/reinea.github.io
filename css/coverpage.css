@@ -60,11 +60,7 @@ center{
     margin: 0 auto;
     width: 100%;
     margin-top: auto;
+    position: relative;
 }
 
-.name {
-    background-image: url("reinea.github.io/Paint Smear.png");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-clip: padding-box;
-}
+
