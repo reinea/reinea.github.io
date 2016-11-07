@@ -64,7 +64,7 @@ ul.posts li {
   position: relative;
 }
 #paint {
-  position: relative;
+  position: absolute;
   z-index: -1;
   top:100px;
 }
