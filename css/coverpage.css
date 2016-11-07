@@ -70,7 +70,7 @@ center{
   position: relative;
 }
 #paint {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
 }
