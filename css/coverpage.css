@@ -68,7 +68,7 @@ center{
   position: relative;
 }
 #paint {
-  position: relative;
+  position: absolute;
 }
 #name {
   z-index: 100;
