@@ -69,12 +69,12 @@ center{
   width: 400px;
   position: relative;
 }
-#image {
+#paint {
   position: absolute;
   left: 0;
   top: 0;
 }
-#text {
+#name {
   z-index: 100;
   position: absolute;
   color: white;
