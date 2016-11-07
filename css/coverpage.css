@@ -66,5 +66,4 @@ center{
     position:absolute;
     bottom:500px; /* in conjunction with left property, decides the text position */
     left:100px;
-    width:300px; /* optional, though better have one */
 }
