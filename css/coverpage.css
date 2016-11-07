@@ -66,12 +66,11 @@ ul.posts li {
 #paint {
   position: relative;
   z-index: -1;
-  top:300px;
+  top:200px;
 }
 #name {
   z-index: 100;
   position: absolute;
   color: white;
-  left: 500px;
-  top: 0px;
+  left: 400px;
 }
