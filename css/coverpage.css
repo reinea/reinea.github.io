@@ -64,7 +64,7 @@ center{
 
 .container .name{
     position:relative;
-    bottom:10px; /* in conjunction with left property, decides the text position */
-    right:10px;
+    bottom:100px; /* in conjunction with left property, decides the text position */
+    right:100px;
     width:300px; /* optional, though better have one */
 }
