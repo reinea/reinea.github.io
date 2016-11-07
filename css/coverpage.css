@@ -62,6 +62,7 @@ ul.posts li {
 
 #container {
   position: relative;
+  top: 0px;
 }
 #paint {
   position: relative;
