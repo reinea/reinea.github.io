@@ -65,14 +65,10 @@ center{
 
 
 #container {
-  height: 400px;
-  width: 400px;
   position: relative;
 }
 #paint {
   position: relative;
-  left: 0;
-  top: 0;
 }
 #name {
   z-index: 100;
