@@ -66,7 +66,6 @@ ul.posts li {
 #paint {
   position: relative;
   z-index: -1;
-  top:100px;
 }
 #name {
   z-index: 100;
