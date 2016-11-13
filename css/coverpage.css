@@ -27,12 +27,14 @@ a:hover {
 h1 {
     font-size: 4em;
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 0px;
 }
 
 h2 { 
     font-size: 2em;
     font-family: 'Raleway', sans-serif; 
     font-weight: 400;
+    margin-top: 0px;
 }
 
 p {
@@ -60,18 +62,19 @@ ul.posts li {
     padding: 10px;
 }
 
-#container {
+.container {
   position: relative;
+  width: 1080px;
+  height: 401px;
+  background-image: url('reinea.github.io/Paint Smear.png');
 }
-#paint {
+
+.name {
+  z-index: 2;
   position: absolute;
-  z-index: -1;
-  top:100px;
-}
-#name {
-  z-index: 100;
-  position: absolute;
-  color: white;
-  left: 300px;
-  top: 300px;
+  color: black;
+  width: 1080px;
+  height: 401px;
+  margin-top:90px;
+  margin-left:10%;
 }
