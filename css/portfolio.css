@@ -111,7 +111,7 @@
 		   		text-align: center;
 		   		bottom: 0;
 		   		width: 100%;
-		   		position: relative;
+		   		position: absolute;
 		   }
 		   .contactbuttons {
 		   		padding: 20px;
