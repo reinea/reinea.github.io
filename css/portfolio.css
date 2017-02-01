@@ -27,8 +27,9 @@
 			h1 {
 				font-size: 2em;
 				font-weight: 500;
-				font-family: 'Raleway', sans-serif;
+				font-family: 'Futura', sans-serif;
 				padding-bottom: 25px;
+				letter-spacing: 0.6em;
 		   }
 		   h2 {
 		   		font-size: 1em;
@@ -41,7 +42,11 @@
 		   		color: #333;
 		   		margin: 0 10%;
 		   		padding-bottom: 20px;
-		   }
+		   		font-family: 'Raleway', sans-serif;
+		   		line-height: 1.5em;
+		   	 }
+		   	 
+		   	/* Navigation */
 		   #stickynavigation {
 		   	    position: fixed;
 		   		width: 100%;
@@ -50,6 +55,7 @@
 		   		padding: 0px;
 		   		background-color: #D8E6E7;
 		   		font-family: 'Raleway', sans-serif;
+		   		overflow-x: auto; /*hides overflow with smaller window*/
 		   }
 		   #stickynavigation li {
 		   		display: inline;
@@ -65,6 +71,8 @@
 		   #stickynavigation li a:hover{
 		   		color: red;
 		   }
+		   
+		   /* General Posts about Projects */
 		   #generalposts {
 		   		padding-top: 120px;
 		   		width: 70%;
@@ -74,16 +82,38 @@
 		   		font-family: 'Raleway', sans-serif;
 		   		color: #52616A;
 		   		padding: 20px;
-		   		background-color: #79BD9A;
+		   		background-color: #eeeeee;
 		   		text-align: center;
 		   		margin: 0 auto;
 		   		display: block;
-		   }
+		  	 }
+		   		.post li {
+				width: 200px;
+				font-family: 'Raleway', sans-serif;
+				margin: 0 auto;
+				text-align: center;
+				display: block;
+				padding-bottom: 10px;
+				padding-top: 10px;
+			}
+			.post li a{
+				text-align: center;
+				background: #a6a6a6;
+				color: #ffffff;
+				border-radius: 30px;
+			}
+			.post li a:hover{
+				opacity: 0.8;
+			}		   
 		   .post {
-		   		padding-bottom: 20px;
+		   		padding-bottom: 70px;
+		   		text-align: justify;
 		   }
 		   .post img {
 		   		padding-bottom: 25px;
+		   		display: block;
+		   		margin-left: auto;
+		   		margin-right: auto;
 		   }
 		   .posttitle {
 		   		text-align: center;
@@ -102,6 +132,8 @@
 		   .titleimage:hover{
 		   		opacity: 0.7;
 		   }
+		   
+		   /* Footer for each page */
 		   footer {
 		   		border-top: 2px solid #d5d5d5;
 		   		font-size: .8em;
@@ -110,6 +142,7 @@
 		   		text-align: center;
 		   		bottom: 0;
 		   		width: 100%;
+		   		position: relative;
 		   }
 		   .contactbuttons {
 		   		padding: 20px;
@@ -128,6 +161,7 @@
 		   }
 
 
+			/* Top part of each page */
 			#pageintroduction{
 				padding-top: 90px; /* For Sticky Navigation */
 			}
@@ -146,7 +180,7 @@
 				display: block;
 				text-align: center;
 			}
-						.pagedescription li{
+			.pagedescription li{
 				width: 200px;
 				font-family: 'Raleway', sans-serif;
 				margin: 0 auto;
@@ -160,14 +194,15 @@
 				background: #a6a6a6;
 				color: #ffffff;
 				border-radius: 30px;
-			}	
+			}			
 			.pagedescription li a:hover{
 				opacity: 0.8;
 			}
 			.pagedescription li a:visited{
 				color: #ffffff;
-			}
+			}			
 			
+			/* Portfolio Project List Page */
 			#fullwidthprojects {
 				width: 100%;
 			}
@@ -240,7 +275,7 @@
 				font-family: 'Raleway', sans-serif;
 				text-align: justify;
 			}
-			.description2 li {
+		.description2 li {
 				width: 200px;
 				font-family: 'Raleway', sans-serif;
 				margin: 0 auto;
