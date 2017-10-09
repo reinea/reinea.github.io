@@ -216,7 +216,7 @@
 			.projects {
 				background-color: #e7f3fc;
 				overflow: hidden;
-				padding: 70px;
+				padding: 70px 0;
 			}
 			.description{
 				width: 50%;
