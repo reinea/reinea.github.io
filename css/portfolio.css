@@ -218,6 +218,7 @@
 				overflow: hidden;
 				padding: 70px 0;
 			}
+			
 			.description{
 				width: 50%;
 				float: left;
@@ -272,6 +273,8 @@
 			}
 			
 			
+			
+			
 			.projects2 {
 				overflow: hidden;
 				background-color: #ffc6d0;
@@ -318,4 +321,13 @@
 			.projectimage2{
 				width: 50%;
 				float: left;
+			}
+			
+			@media (max-width: 960px) {
+				.projectimage, .description {
+					width: 100%;
+				}
+				.projectimage2, .description2 {
+					width: 100%;
+				}
 			}
