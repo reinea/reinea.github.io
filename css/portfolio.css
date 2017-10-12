@@ -323,7 +323,7 @@
 				float: left;
 			}
 			
-			@media (max-width: 960px) {
+			@media only screen (max-width: 960px) {
 				.projectimage, .description {
 					width: 100%;
 				}
