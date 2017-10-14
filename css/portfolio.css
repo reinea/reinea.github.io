@@ -330,4 +330,17 @@
 				.projectimage2, .description2 {
 					width: 100%;
 				}
+				.pagedescription {
+					padding: 10px;
+				}
+				.description h1, .description2 h1 {
+					line-height: 100%;
+					font-size: 1.9em;
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+				.description h3, .description2 h3 {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
 			}
