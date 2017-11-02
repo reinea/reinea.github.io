@@ -1,37 +1,83 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
+html {
+	width: 100%;
+	height: 100%;
+}
+
 body{
-	width: 100%;	
+	margin: 0;
+	width: 100%;
+	height: 100%;	
+/* 	background-color: #fcdcd9; */
+	background-color: #FCE7E5;
 }
 
-h1{ 
-	color: #302624;
-	font-size: 4em;
-	font-family: 'Raleway', sans-serif;	
-	letter-spacing: 0.15em;
-	font-weight: 600;
-	line-height: 50%;
-}
-
-h2{
-	color: #302624;
+h1 {
 	font-size: 2em;
+	font-weight: 400;
+	font-family: 'Futura', sans-serif;
+	letter-spacing: 0.2em;			
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: 400;
+	font-family: 'Futura', sans-serif;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: 200;
+	font-family: 'Futura', sans-serif;
+}
+
+p {
+	font-size: 1em;
+	color: #333;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-	line-height: 50%;
+	line-height: 1.5em;
 }
 
-.name a{ 
-text-decoration: none;
-color: #ffffff;
+	
+/*-------------HOME PAGE BORDERS------------- */
+#top, #bottom, #left, #right {
+	background: #c3a29e;
+	position: fixed;
+}
+#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+}
+#left { left: 0; }
+#right { right: 0; }
+		
+#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+}
+#top { top: 0; }
+#bottom { bottom: 0; }
+/* End code for borders of the page */
+
+/*-------------HOME PAGE CONTAINER-------------*/
+#container {
+position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 300px;
+ }
+
+/*-------------NAVIGATION BAR-------------*/
+.navigation {
+	padding-top: 40px;
 }
 
-.name a:hover{
-	opacity: 0.3;
-	color: #604c48;
-}
-
-ul{
+ul {
 	text-align: center;
 	list-style-type: none;
 	margin: 0;
@@ -39,63 +85,317 @@ ul{
 	overflow: hidden;
 }
 
-li{
+li {
 	display: inline;
 }
 
 li a{
-	color: #483936;
-	text-decoration: none;
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	padding: 0px 16px;
-	font-size: 1.1em;
+	padding: 0px 18px;
+	font-size: 1.3em;
 	font-weight: 450;
 }
 
-li a:hover{
-	color: #91726c;
+.navbar a {
+	float: right;
+	display: block;
+	padding: 0 15px;
+	font-size: 1em;
+	letter-spacing: 0.1em;
 }
 
-
-#container{
-	position: fixed;
-	margin: auto;
-	top: 0;
-	right: 0;
-	bottom: 25%;
-	left: 0;
-	width: 1100px; /*width and height dimensions of paint smear */
-	height: 281px;
-}
-
-#container img{
-	margin-left: 20px;
-}
-.name{
-	z-index: 100;
+li a, .navbar a {
+	color: #483936;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	-webkit-transition: color 0.25s;
 	text-align: center;
+	text-transform: uppercase;
+}
+
+li a:hover, .navbar a:hover{
+	color: #c3a29e;
+}
+
+.navbar {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	overflow: hidden;
+	display: block;
+}
+
+.navbar img {
+	height: 50px;
+	-webkit-transition: opacity 0.25s;
+}
+
+.navbar img:hover { 
+	opacity: 0.5;
+}
+
+.navbar a.active {
+	background-color: pink;
+	color: white;
+}
+
+.nav-wrapper {
+	float: right;
+	padding-right: 10%;
+	display: inline-block;
+}
+
+.nav-wrapper a{
+	margin-top:15px; /*Fakes a vertical alignment */
+}
+
+.logo-wrapper {
+	padding-left: 15%;
+	float: left;
+}
+
+.special-link a {
+	text-decoration: none;
+	background-color: #c3a29e;
+	color: black;
+	padding: 14px 25px;
+	text-align: center;
+	font-size: 0.9em;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	-webkit-transition: background-color 0.25s;
+	-webkit-transition: color 0.25s;
+}
+.special-link a:hover {
+	color: white;
+	background-color: #AA9EA7;
+}
+.special-link a:visited {
+	text-decoration: none;
+}
+
+
+
+
+/*-------------FOOTER OF ALL PAGES------------- */
+footer {
+	visibility: hidden;
 	position: absolute;
-	width: 100%;
-	margin: auto;
-	top: 18%;
-	right: 0;
+	display: block;
 	bottom: 0;
-	left: 0;
-}
-
-.navigation{
-	padding-top: 5px;
-	position: relative;
-}
-
-.stripes{
-	position: fixed;
+	right: 0;
 	width: 100%;
 	height: 100px;
-	padding: 0;
-	margin: 0;
-	top: 0px;
+	text-align: center;
 	left: 0;
-	border-top: 15px solid  #f8deda;
+}
+
+.contactbuttons a {
+	color: #483936;
+	padding: 0 5px;
+	-webkit-transition: opacity 0.25s;
+}
+
+.contactbuttons a:hover {
+	opacity: 0.5;
+}
+
+/*-------------GENERAL PAGE LAYOUT-------------*/
+#parent-wrapper {
+	display: block;
+	margin: auto;
+	max-width: 1000px;
+	width: 80%;
+}
+
+
+.left-piece img, .right-piece img, .left-piece-wider img, .right-piece-wider img, .left-piece-smaller img {
+	max-width: 90%;
+	max-height: 100%;
+}
+
+.left-piece, .left-piece-wider, .left-piece-smaller{ 
+	float: left;
+}
+
+.right-piece, .right-piece-smaller, .right-piece-wider { 
+	float: right;
+}
+
+.left-piece, .right-piece, .left-piece-wider, .right-piece-smaller, .right-piece-wider, .left-piece-smaller{
+	height: 500px;
+	text-align: left;
+}
+.left-piece, .right-piece {
+	width: 50%;
+}
+
+.left-piece-wider, .right-piece-wider {
+	width: 70%;
+}
+.right-piece-smaller, .left-piece-smaller {
+	width: 30%;
+}
+
+
+/*-------------FOR THE FORM ON CONTACT PAGE------------- */
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid gray;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	resize: vertical;
+}
+
+button { /*styles submit button */
+	width: 90px;
+	height: 35px;
+	border: none;
+	background-color: #c3a29e;
+	text-transform: uppercase;
+	-webkit-transition: color 0.25s;
+}
+
+button:hover {
+	color: white;
+	background-color: #AA9EA7;
+}
+
+label, button {
+	font-family: 'Raleway', sans-serif;
+}
+
+#projectpage {
+	margin: 0 auto;
+	width: 80%;
+	padding-bottom: 30px;
+}
+#projectpage h1{
+	text-align: center;
+}
+#projectpage h3 {
+	letter-spacing: 0.2em;
+}
+#projectpage p {
+	text-align: justify;
+	width: 75%;
+	margin: 0 auto;
+}
+
+/*Can only be found on information pages per project*/
+.infopage h3 {
+	text-align: center;
+	font-size: 1.3em;
+}
+.infopage img {
+	width: 100%;
+}
+.infopage {
+	text-align: center;
+}
+.video {
+	margin: 30px auto;
+	text-align: center;
+}
+/*-------------PHOTO PORTFOLIO PAGE-------------*/
+#img-portfolio {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#img-portfolio img {
+	width: 100%;
+	padding-bottom: 15px;
+}
+/* #img-portfolio p {
+	width: 80%;
+} */
+.img-display {
+	padding-bottom: 50px;
+}
+
+#grid-of-work{
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+}
+#grid-of-work img{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+}
+.column-two {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.my-insta {
+	background-color: #c3a29e;
+	height: 30px;
+	text-align: center;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/*-------------FOR PROJECT SHOWCASE------------- */
+#project-page-wrapper h2 {
+	margin: 0;
+}
+#project-page-wrapper h3 {
+	margin-bottom: 10px;
+}
+#project-page-wrapper p {
+	text-align: justify;
+	width: 90%;
+}
+
+/*-------------ADJUSTING ON SMALLER SCREENS-------------*/
+@media (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+	.column-two{
+		width: 100%
+	}
+}
+@media {
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+{
+	#top, #bottom, #left, #right { display: none; }
+}}
+
+@media only screen and (max-width: 1160px) {
+/* 	.about-photos, .about-text , .contact-form, .contact-photos, .left-img-piece, .left-text-piece */
+	.left-piece, .right-piece, .left-piece-wider, .left-piece-smaller, .right-piece-wider, .right-piece-smaller {
+		width: 100%
+	}
+	.about-text h1, .contact-form h1{
+		text-align: center;
+	}
+}
 }
