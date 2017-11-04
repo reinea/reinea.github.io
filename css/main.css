@@ -296,6 +296,8 @@ label, button {
 }
 .infopage img {
 	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .infopage {
 	text-align: center;
@@ -363,6 +365,10 @@ label, button {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+
+.textsection {
+	padding-bottom: 70px;
 }
 
 /*-------------FOR PROJECT SHOWCASE------------- */
