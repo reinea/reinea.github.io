@@ -42,7 +42,7 @@ p {
 	font-size: 1em;
 	color: #333;
 	font-family: 'Raleway', sans-serif;
-	line-height: 1.5em;
+	line-height: 1.7em;
 }
 
 	
@@ -185,7 +185,8 @@ li a:hover, .navbar a:hover{
 /*-------------FOOTER OF ALL PAGES------------- */
 footer {
 	visibility: hidden;
-	position: absolute;
+/* 	position: absolute; */
+	margin-top: 40px;
 	display: block;
 	bottom: 0;
 	right: 0;
@@ -285,7 +286,7 @@ label, button {
 }
 #projectpage p {
 	text-align: justify;
-	width: 75%;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -301,6 +302,9 @@ label, button {
 }
 .infopage {
 	text-align: center;
+}
+#project-page-wrapper p{
+line-height: 1.5em;
 }
 .video {
 	margin: 30px auto;
