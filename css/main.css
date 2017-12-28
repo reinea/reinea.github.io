@@ -360,6 +360,9 @@ line-height: 1.5em;
 	display: table;
 	clear: both;
 }
+.columnitem {
+	padding-bottom: 40px;
+}
 
 .my-insta {
 	background-color: #c3a29e;
@@ -377,6 +380,10 @@ line-height: 1.5em;
 
 .textsection {
 	padding-bottom: 70px;
+}
+
+.minisection {
+	padding-bottom: 40px;
 }
 
 /*-------------FOR PROJECT SHOWCASE------------- */
