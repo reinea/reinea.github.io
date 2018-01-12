@@ -420,11 +420,16 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 /* 	.about-photos, .about-text , .contact-form, .contact-photos, .left-img-piece, .left-text-piece */
 	.left-piece, .right-piece, .left-piece-wider, .left-piece-smaller, .right-piece-wider, .right-piece-smaller {
 		width: 100%;
+		height: 100%;
+		text-align: center;
 	}
 	.right-piece h1, .contact-form h1{
 		text-align: center;
 	}	
 	.left-piece{
+		text-align: center;
+	}
+	h2, h3 {
 		text-align: center;
 	}
 }

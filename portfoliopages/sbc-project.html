@@ -3,12 +3,18 @@
 	<head>
 		<title>Sisters Baking Company Project</title>
 		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://use.fontawesome.com/9f78ca0d42.js"></script>
+		<script>$(document).ready(function(){ 
+  $.get("header.html", function(data) {
+    $("#header").html(data);
+  });
+}); </script>
 	</head>
 	
 	<body>
 		<div class="navbar"> <!-- Navigation at the top of the page --> 
-			<span class="logo-wrapper">
+<!-- 			<span class="logo-wrapper">
 				<a href="index.html"><img src="../images/reinelogo.png" alt="reine"></a>
 			</span>
 			<span class="nav-wrapper">
@@ -17,13 +23,14 @@
 				<a href="../pdfs/reinetechresume.pdf">Resume</a>
 				<a href="../portfoliopage.html">My Work</a>
 				<a href="../about.html">About</a>
-			</span>
+			</span> -->
 		</div> <!-- Closes Navigation -->
+		
 		
 		<div id="projectpage" class="infopage">	
 				<h3>SPRING, SUMMER 2017</h3>
 				<h1>SISTER'S BAKING COMPANY</h1>
-				<h4>HTML/CSS, PHP, Adobe Photoshop, Wordpress</h4>
+				<h4>Wordpress Site Design and Development</h4>
 				<div class="info">
 					<img src="../images/sbc-project/sbcinfopage.png">
 					<p><em>Sister's Baking Company</em> is an Edmonds-based granola business run by sisters Jen and Jamie. They're known for their crunchy caramel granola bark that can be purchased around the Greater Seattle Area. Like any growing business, they saw the need for an informative, modern website, so they approached me looking for a minimalist theme that can showcase their product.</p>
@@ -77,6 +84,7 @@
 			</ul>
 		</div><!-- closes contactbuttons -->
 		</footer>
-
+		
+		<!--#include virtual="commonground-project.shtml" -->
 	</body>
 </html>
